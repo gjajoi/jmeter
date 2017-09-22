@@ -1,0 +1,2 @@
+cd /opt/jmeter/apache-jmeter-3.2/bin/
+sh jmeter.sh -Jjmeter.save.saveservice.output_format=xml -n -t /opt/jmeter/apache-jmeter-3.2/bin/JmeterJenkins.jmx -l opt/jmeter/apache-jmeter-3.2/bin/TestResult1.jtl
